@@ -83,7 +83,7 @@ params = {user_id: 11550}
 ost_kyc_users_kyc_object.email_approve(params).to_json
 ```
 
-Send Deny Email to User:
+Send Deny Email:
 
 ```ruby
 ## Params should have all the fields which are present in kyc config ##
@@ -91,7 +91,7 @@ params = {user_id: 11550}
 ost_kyc_users_kyc_object.email_deny(params).to_json
 ```
 
-Send Report Issue Email to User:
+Send Report Issue Email:
 
 ```ruby
 ## Params should have all the fields which are present in kyc config ##
